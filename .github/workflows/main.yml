@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout main
+      uses: actions/checkout@v2
 
-    - name: Deploy react app to github pages
+    - name: Build and deploy
       uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
