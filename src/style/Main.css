@@ -5,4 +5,5 @@
     max-width: 1200px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: auto;
 }

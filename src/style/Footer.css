@@ -1,7 +1,5 @@
 .footer {
     min-height: 80px;
-    width: 400px;
-    width: calc(100% - 120px);
 }
 
 .footer-text {
@@ -11,4 +9,5 @@
     text-align: center;
     padding-top: 25px;
     font-weight: 400;
+    margin-top: auto;
 }
