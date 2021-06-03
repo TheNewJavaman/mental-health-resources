@@ -1,0 +1,42 @@
+.card {
+    border-radius: 7px;
+    overflow: hidden;
+    width: calc(100% - 80px);
+    max-width: 400px;
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    padding: 25px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    flex-grow:1 1;
+}
+
+.card-spacer {
+    min-width: 100%;
+    min-height: 25px;
+}
+
+.card-title {
+    font-family: Roboto;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.card-text p {
+    font-family: Lato;
+    font-size: 16px;
+}
+
+.card-link {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.card-link a {
+    color: #c22e1d;
+    font-family: Lato;
+    text-align: right;
+    width: 100%
+}

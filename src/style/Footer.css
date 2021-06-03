@@ -1,0 +1,14 @@
+.footer {
+    min-height: 80px;
+    width: 400px;
+    width: calc(100% - 120px);
+}
+
+.footer-text {
+    font-size: 18px;
+    font-family: Lato;
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 400;
+}
