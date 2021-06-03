@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mental-health-resources/static/css/main.ad77f684.chunk.css",
-    "main.js": "/mental-health-resources/static/js/main.c9e8dac5.chunk.js",
-    "main.js.map": "/mental-health-resources/static/js/main.c9e8dac5.chunk.js.map",
+    "main.js": "/mental-health-resources/static/js/main.ae63d364.chunk.js",
+    "main.js.map": "/mental-health-resources/static/js/main.ae63d364.chunk.js.map",
     "runtime-main.js": "/mental-health-resources/static/js/runtime-main.7a1cea9b.js",
     "runtime-main.js.map": "/mental-health-resources/static/js/runtime-main.7a1cea9b.js.map",
     "static/js/2.6384923f.chunk.js": "/mental-health-resources/static/js/2.6384923f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7a1cea9b.js",
     "static/js/2.6384923f.chunk.js",
     "static/css/main.ad77f684.chunk.css",
-    "static/js/main.c9e8dac5.chunk.js"
+    "static/js/main.ae63d364.chunk.js"
   ]
 }
