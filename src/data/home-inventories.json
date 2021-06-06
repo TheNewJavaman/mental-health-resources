@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Depression Inventory",
+        "text": [
+            "Evaluate levels of depression"
+        ],
+        "link": [
+            "Depression Test"
+        ]
+    },
+    {
+        "title": "Beck Anxiety Inventory",
+        "text": [
+            "Evaluate levels of anxiety"
+        ],
+        "link": [
+            "Anxiety Test"
+        ]
+    }
+]

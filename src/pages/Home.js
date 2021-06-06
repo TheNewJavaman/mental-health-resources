@@ -7,14 +7,20 @@ import Card from '../components/Card';
 
 export default class Home extends React.Component {
   render() {
-    let cardData = require('../data/home-cards.json');
+    let inventories = require('../data/home-inventories.json');
+    let hotlines = require('../data/home-hotlines.json');
 
     return (
       <Background contents={[
         <Header key="header" />,
-        <Main key="content" contents={
-          cardData.map((full, index) => {
-            return <Card key={index} data={full}></Card>
+        <Main key="inventories" title="Inventories (Work in Progress)" contents={
+          inventories.map((full, index) => {
+            return <Card key={index} data={full} linkPrefix="/"></Card>
+          })
+        } />,
+        <Main key="hotlines" title="Hotlines" contents={
+          hotlines.map((full, index) => {
+            return <Card key={index} data={full} linkPrefix="tel:"></Card>
           })
         } />,
         <Footer key="footer" />,

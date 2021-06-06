@@ -6,4 +6,20 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main-title {
+    width: calc(100% - 30px);
+    max-width: 930px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+.main-title p {
+    font-family: Roboto;
+    color: black;
+    font-size: 26px;
+    font-weight: 400;
 }

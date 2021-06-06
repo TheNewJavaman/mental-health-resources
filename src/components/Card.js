@@ -15,7 +15,7 @@ export default class Card extends React.Component {
         <div className='card-spacer'></div>
         <div className='card-link'>{
           this.props.data.link.map((link) => {
-            return <a href={"tel:" + link}><b>{link}</b></a>
+            return <a href={this.props.linkPrefix + link.toLowerCase().replace(" ", "-")}><b>{link}</b></a>
           })
         }</div>
       </div>
