@@ -13,13 +13,32 @@
 .main-title {
     width: calc(100% - 30px);
     max-width: 930px;
+    margin-top: 5px;
+    margin-bottom: -20px;
+}
+
+.main-title-single {
+    width: calc(100% - 30px);
+    max-width: 596px;
     margin-top: 25px;
     margin-bottom: -10px;
 }
 
-.main-title p {
+.main-title-double {
+    width: calc(100% - 30px);
+    max-width: 930px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+.main-title {
     font-family: Roboto;
     color: black;
     font-size: 26px;
     font-weight: 400;
+}
+
+hr {
+    width: 100%;
+    visibility: hidden;
 }

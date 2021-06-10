@@ -15,19 +15,21 @@ export default class Test extends React.Component {
         { this.score
           ? <div className='test-result'></div>
           : <div className='test-questions'>{
-            Object.entries(this.props.questions).map((data) => {
-              let index = data[0];
-              let question = data[1];
-              return <div className='test-question'>
+            Object.entries(this.props.questions).map((data1) => {
+              let index = data1[0];
+              let question = data1[1];
+              return <div key={'question-' + index} className='test-question'>
                 <p className='test-question-title'>{index + ". " + question.title}</p>
                 <div className='test-question-options'>{
-                  <p class></p>
+                  Object.entries(question.levels).map((data2) => {
+                    let level = data2[0];
+                    let statement = data2[1];
+                    return <div key={'question-' + index + '-option-' + level} className='test-question-option'>
+                      <input type='radio' id={index + '-' + level} name={index}></input>
+                      <label className='test-question-statement' htmlFor={index + '-' + level}>{statement}</label>
+                    </div>
+                  })
                 }</div>
-                {
-                  index === "0"
-                    ? null
-                    : null
-                }
               </div>;
             })
           }</div>
