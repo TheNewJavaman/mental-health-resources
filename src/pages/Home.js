@@ -13,7 +13,7 @@ export default class Home extends React.Component {
     return (
       <Background contents={[
         <Header key="header" />,
-        <Main key="inventories" title="Inventories" contents={
+        <Main key="inventories" title="Inventories" isTop={1} contents={
           inventories.map((full, index) => {
             return <Card key={"inventories" + index} data={full} internalLink={true}></Card>
           })
