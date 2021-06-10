@@ -5,19 +5,73 @@ export default class Test extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      score: null
+      score: 1,
+      scores: {}
     };
+    this.onChangeValue = this.onChangeValue.bind(this);
+    this.score = this.score.bind(this);
+    this.reset = this.reset.bind(this);
+  }
+
+  onChangeValue(event) {
+    let levelRegex = /-.*/;
+    let index = event.target.name;
+    let id = event.target.id;
+    let pos = id.search(levelRegex)
+    let level = id.substring(pos + 1, pos + 2);
+    let scores = this.state.scores;
+    scores[index] = level;
+    this.setState({
+      ...this.state,
+      scores: scores
+    });
+    console.log(scores);
   }
 
   score() {
+    let values = Object.values(this.state.scores)
+    if (values.length === Object.keys(this.props.questions).length) {
+      let sum = 0;
+      values.forEach((value) => {
+        sum += parseInt(value);
+      });
+      this.setState({
+        ...this.state,
+        score: sum
+      });
+    } else {
+      alert('Please fill in every field.');
+    }
+  }
 
+  reset() {
+    this.setState({
+      score: null,
+      scores: {}
+    });
   }
 
   render() {
     return (
       <div className='test'>
         { this.state.score
-          ? <div className='test-result'></div>
+          ? <div className='test-results'>
+            <div className='test-result'>
+              <p className='test-result-title'>Your result: {this.state.score}</p>
+              {
+                this.props.results.map((result) => {
+                  console.log(result);
+                  return <div className='test-result-possibility'>
+                    <div className='test-result-range'><p>{result.min + ' - ' + result.max}</p></div>
+                    <p className='test-result-result'>{result.result}</p>
+                  </div>
+                })
+              }
+            </div>
+            <div className='test-button-container'>
+              <button className='test-button' onClick={this.reset}><p>Reset</p></button>
+            </div>
+          </div>
           : <div className='test-questions'>
             {
               Object.entries(this.props.questions).map((data1) => {
@@ -31,7 +85,7 @@ export default class Test extends React.Component {
                       let level = data2[0];
                       let statement = data2[1];
                       return <div key={'question-' + index + '-option-' + level} className='test-question-option'>
-                        <input className='test-question-radio' type='radio' id={index + '-' + level} name={index}></input>
+                        <input className='test-question-radio' type='radio' id={index + '-' + level} name={index} onChange={this.onChangeValue}></input>
                         <label className='test-question-statement' htmlFor={index + '-' + level}>{statement}</label>
                       </div>
                     })
