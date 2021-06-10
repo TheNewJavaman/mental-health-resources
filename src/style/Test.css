@@ -35,6 +35,8 @@
 
 .test-question-option {
     margin-top: 3px;
+    padding-left: 36px;
+    text-indent: -36px;
 }
 
 .test-question-statement {
