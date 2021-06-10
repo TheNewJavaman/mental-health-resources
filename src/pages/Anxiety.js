@@ -19,7 +19,7 @@ export default class Anxiety extends React.Component {
     return (
       <Background contents={[
         <Header key="header" />,
-        <Main key="main" columns={1} title="Beck Anxiety Inventory" contents={
+        <Main key="main" columns={1} isTop={1} title="Beck Anxiety Inventory" contents={
           <Test key="test" questions={questions} results={results}></Test>
         } />,
         < Footer key="footer" />,
