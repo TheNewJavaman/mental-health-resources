@@ -4,35 +4,31 @@
         "text": [
             "Call the number below to get help"
         ],
-        "link": [
-            "800-273-8255"
-        ]
+        "linkText": "800-273-8255",
+        "linkLink": "tel:800-273-8255"
     },
     {
         "title": "The Trevor Project",
         "text": [
             "Supports LGBT youth"
         ],
-        "link": [
-            "866-488-7386"
-        ]
+        "linkText": "866-488-7386",
+        "linkLink": "tel:866-488-7386"
     },
     {
         "title": "loveisrespect",
         "text": [
             "Focuses on relationships"
         ],
-        "link": [
-            "866-331-9474"
-        ]
+        "linkText": "866-331-9474",
+        "linkLink": "tel:866-331-9474"
     },
     {
         "title": "National Eating Disorders Association",
         "text": [
             "Resource for eating disorders"
         ],
-        "link": [
-            "800-931-2237"
-        ]
+        "linkText": "800-931-2237",
+        "linkLink": "tel:800-931-2237"
     }
 ]

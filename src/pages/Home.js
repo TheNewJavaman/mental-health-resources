@@ -15,12 +15,12 @@ export default class Home extends React.Component {
         <Header key="header" />,
         <Main key="inventories" title="Inventories (Work in Progress)" contents={
           inventories.map((full, index) => {
-            return <Card key={index} data={full} linkPrefix="/"></Card>
+            return <Card key={"inventories" + index} data={full}></Card>
           })
         } />,
         <Main key="hotlines" title="Hotlines" contents={
           hotlines.map((full, index) => {
-            return <Card key={index} data={full} linkPrefix="tel:"></Card>
+            return <Card key={"hotlines" + index} data={full}></Card>
           })
         } />,
         <Footer key="footer" />,

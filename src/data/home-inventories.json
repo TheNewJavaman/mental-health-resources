@@ -1,20 +1,18 @@
 [
     {
-        "title": "Depression Inventory",
+        "title": "Beck Depression Inventory",
         "text": [
             "Evaluate levels of depression"
         ],
-        "link": [
-            "Depression Test"
-        ]
+        "linkText": "Depression Test",
+        "linkLink": "depression-test"
     },
     {
         "title": "Beck Anxiety Inventory",
         "text": [
             "Evaluate levels of anxiety"
         ],
-        "link": [
-            "Anxiety Test"
-        ]
+        "linkText": "Anxiety Test",
+        "linkLink": "anxiety-test"
     }
 ]

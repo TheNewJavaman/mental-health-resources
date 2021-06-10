@@ -9,14 +9,14 @@ export default class Card extends React.Component {
         <div className='card-spacer'></div>
         <div className='card-text'>{
           this.props.data.text.map((text) => {
-            return <p>{text}</p>
+            return <p key={text}>{text}</p>
           })
         }</div>
         <div className='card-spacer'></div>
         <div className='card-link'>{
-          this.props.data.link.map((link) => {
-            return <a href={this.props.linkPrefix + link.toLowerCase().replace(" ", "-")}><b>{link}</b></a>
-          })
+          <a href={this.props.data.linkLink}>
+            <b>{this.props.data.linkText}</b>
+          </a>
         }</div>
       </div>
     );

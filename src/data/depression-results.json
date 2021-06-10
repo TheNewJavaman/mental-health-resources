@@ -1,0 +1,32 @@
+[
+    {
+        "min": 0,
+        "max": 10,
+        "result": "These ups and downs are considered normal"
+    },
+    {
+        "min": 11,
+        "max": 16,
+        "result": "Mild mood disturbance"
+    },
+    {
+        "min": 17,
+        "max": 20,
+        "result": "Borderline clinical depression"
+    },
+    {
+        "min": 21,
+        "max": 30,
+        "result": "Moderate depression"
+    },
+    {
+        "min": 31,
+        "max": 40,
+        "result": "Severe depression"
+    },
+    {
+        "min": 41,
+        "max": 999,
+        "result": "Extreme depression"
+    }
+]

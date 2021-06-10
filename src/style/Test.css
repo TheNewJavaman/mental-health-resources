@@ -1,0 +1,12 @@
+.test {
+    border-radius: 7px;
+    overflow: hidden;
+    width: calc(100% - 80px);
+    max-width: 880px;
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    padding: 25px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    flex-grow: 1 1;
+}
