@@ -15,13 +15,20 @@ export default class Test extends React.Component {
         { this.score
           ? <div className='test-result'></div>
           : <div className='test-questions'>{
-            Object.entries(this.props.questions).forEach((index, question) => {
+            Object.entries(this.props.questions).map((data) => {
+              let index = data[0];
+              let question = data[1];
               return <div className='test-question'>
-                <p className='test-question-title'>{index + ". " + question}</p>
+                <p className='test-question-title'>{index + ". " + question.title}</p>
                 <div className='test-question-options'>{
-
+                  <p class></p>
                 }</div>
-              </div>
+                {
+                  index === "0"
+                    ? null
+                    : null
+                }
+              </div>;
             })
           }</div>
         }
