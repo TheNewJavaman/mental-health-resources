@@ -1,0 +1,191 @@
+{
+    "1": {
+        "title": "Numbness or tingling",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "2": {
+        "title": "Feeling hot",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "3": {
+        "title": "Wobbliness in legs",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "4": {
+        "title": "Unable to relax",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "5": {
+        "title": "Fear of worst happening ",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "6": {
+        "title": "Dizzy or lightheaded ",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "7": {
+        "title": "Heart pounding / racing",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "8": {
+        "title": "Unsteady ",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "9": {
+        "title": "Terrified or afraid",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "10": {
+        "title": "Nervous",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "11": {
+        "title": "Feeling of choking ",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "12": {
+        "title": "Hands trembling",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "13": {
+        "title": "Shaky / unsteady",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "14": {
+        "title": "Fear of losing control",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "15": {
+        "title": "Difficulty in breathing",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "16": {
+        "title": "Fear of dying",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "17": {
+        "title": "Scared",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "18": {
+        "title": "Indigestion ",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "19": {
+        "title": "Faint / lightheaded",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "20": {
+        "title": "Face flushed",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    },
+    "21": {
+        "title": "Hot / cold sweats",
+        "levels": {
+            "0": "Not at all",
+            "1": "Mildly, but it didn’t bother me much",
+            "2": "Moderately – it wasn’t pleasant at times",
+            "3": "Severely – it bothered me a lot"
+        }
+    }
+}

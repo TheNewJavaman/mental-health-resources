@@ -1,0 +1,17 @@
+[
+    {
+        "min": 0,
+        "max": 21,
+        "result": "Low anxiety"
+    },
+    {
+        "min": 22,
+        "max": 35,
+        "result": "Moderate anxiety"
+    },
+    {
+        "min": 36,
+        "max": 63,
+        "result": "Severe anxiety"
+    }
+]
