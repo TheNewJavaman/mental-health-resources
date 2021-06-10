@@ -5,7 +5,7 @@
     width: 100%;
     background: #c22e1d;
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
-    position: sticky; 
+    position: fixed; 
     top: 0;
 }
 
@@ -13,8 +13,8 @@
     font-size: 28px;
     padding: 11px;
     font-family: Roboto;
-    padding-left: 15px;
     font-weight: 300;
+    padding-left: 17px;
 }
 
 .header-text a {

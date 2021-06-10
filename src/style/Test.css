@@ -69,3 +69,7 @@
     background-color: #c22e1d;
     color: white;
 }
+
+button:hover {
+    cursor: pointer;
+}

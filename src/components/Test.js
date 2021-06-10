@@ -10,7 +10,7 @@ export default class Test extends React.Component {
   }
 
   score() {
-    alert('hi');
+
   }
 
   render() {
