@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/Card.css';
+import { Link } from 'react-router-dom';
 
 export default class Card extends React.Component {
   render() {
@@ -14,9 +15,13 @@ export default class Card extends React.Component {
         }</div>
         <div className='card-spacer'></div>
         <div className='card-link'>{
-          <a href={this.props.data.linkLink}>
-            <b>{this.props.data.linkText}</b>
-          </a>
+          this.props.internalLink
+            ? <Link to={this.props.data.linkLink}>
+              <b>{this.props.data.linkText}</b>
+            </Link>
+            : <a href={this.props.data.linkLink}>
+              <b>{this.props.data.linkText}</b>
+            </a>
         }</div>
       </div>
     );
