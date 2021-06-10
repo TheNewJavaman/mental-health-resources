@@ -19,13 +19,14 @@ export default class Test extends React.Component {
               let index = data1[0];
               let question = data1[1];
               return <div key={'question-' + index} className='test-question'>
-                <p className='test-question-title'>{index + ". " + question.title}</p>
+                <div className='test-question-index'><p>{index + '. '}</p></div>
+                <p className='test-question-title'>{question.title}</p>
                 <div className='test-question-options'>{
                   Object.entries(question.levels).map((data2) => {
                     let level = data2[0];
                     let statement = data2[1];
                     return <div key={'question-' + index + '-option-' + level} className='test-question-option'>
-                      <input type='radio' id={index + '-' + level} name={index}></input>
+                      <input className='test-question-radio' type='radio' id={index + '-' + level} name={index}></input>
                       <label className='test-question-statement' htmlFor={index + '-' + level}>{statement}</label>
                     </div>
                   })
