@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/mental-health-resources/static/css/main.7c471051.chunk.css",
-    "main.js": "/mental-health-resources/static/js/main.913b15d4.chunk.js",
-    "main.js.map": "/mental-health-resources/static/js/main.913b15d4.chunk.js.map",
-    "runtime-main.js": "/mental-health-resources/static/js/runtime-main.0791508a.js",
-    "runtime-main.js.map": "/mental-health-resources/static/js/runtime-main.0791508a.js.map",
+    "main.js": "/mental-health-resources/static/js/main.f68b784d.chunk.js",
+    "main.js.map": "/mental-health-resources/static/js/main.f68b784d.chunk.js.map",
+    "runtime-main.js": "/mental-health-resources/static/js/runtime-main.c6eb8434.js",
+    "runtime-main.js.map": "/mental-health-resources/static/js/runtime-main.c6eb8434.js.map",
     "static/js/2.00131591.chunk.js": "/mental-health-resources/static/js/2.00131591.chunk.js",
     "static/js/2.00131591.chunk.js.map": "/mental-health-resources/static/js/2.00131591.chunk.js.map",
-    "static/js/3.223e997f.chunk.js": "/mental-health-resources/static/js/3.223e997f.chunk.js",
-    "static/js/3.223e997f.chunk.js.map": "/mental-health-resources/static/js/3.223e997f.chunk.js.map",
+    "static/js/3.78130067.chunk.js": "/mental-health-resources/static/js/3.78130067.chunk.js",
+    "static/js/3.78130067.chunk.js.map": "/mental-health-resources/static/js/3.78130067.chunk.js.map",
     "index.html": "/mental-health-resources/index.html",
     "static/css/main.7c471051.chunk.css.map": "/mental-health-resources/static/css/main.7c471051.chunk.css.map",
     "static/js/2.00131591.chunk.js.LICENSE.txt": "/mental-health-resources/static/js/2.00131591.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0791508a.js",
+    "static/js/runtime-main.c6eb8434.js",
     "static/js/2.00131591.chunk.js",
     "static/css/main.7c471051.chunk.css",
-    "static/js/main.913b15d4.chunk.js"
+    "static/js/main.f68b784d.chunk.js"
   ]
 }
