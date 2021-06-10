@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mental-health-resources/static/css/main.bf66cede.chunk.css",
-    "main.js": "/mental-health-resources/static/js/main.29b22b95.chunk.js",
-    "main.js.map": "/mental-health-resources/static/js/main.29b22b95.chunk.js.map",
-    "runtime-main.js": "/mental-health-resources/static/js/runtime-main.9b873877.js",
-    "runtime-main.js.map": "/mental-health-resources/static/js/runtime-main.9b873877.js.map",
-    "static/js/2.e601904b.chunk.js": "/mental-health-resources/static/js/2.e601904b.chunk.js",
-    "static/js/2.e601904b.chunk.js.map": "/mental-health-resources/static/js/2.e601904b.chunk.js.map",
-    "static/js/3.bd5db1c4.chunk.js": "/mental-health-resources/static/js/3.bd5db1c4.chunk.js",
-    "static/js/3.bd5db1c4.chunk.js.map": "/mental-health-resources/static/js/3.bd5db1c4.chunk.js.map",
+    "main.css": "/mental-health-resources/static/css/main.9f95702a.chunk.css",
+    "main.js": "/mental-health-resources/static/js/main.7b966228.chunk.js",
+    "main.js.map": "/mental-health-resources/static/js/main.7b966228.chunk.js.map",
+    "runtime-main.js": "/mental-health-resources/static/js/runtime-main.a24c04ce.js",
+    "runtime-main.js.map": "/mental-health-resources/static/js/runtime-main.a24c04ce.js.map",
+    "static/js/2.5b523a9c.chunk.js": "/mental-health-resources/static/js/2.5b523a9c.chunk.js",
+    "static/js/2.5b523a9c.chunk.js.map": "/mental-health-resources/static/js/2.5b523a9c.chunk.js.map",
+    "static/js/3.b8c80f5b.chunk.js": "/mental-health-resources/static/js/3.b8c80f5b.chunk.js",
+    "static/js/3.b8c80f5b.chunk.js.map": "/mental-health-resources/static/js/3.b8c80f5b.chunk.js.map",
     "index.html": "/mental-health-resources/index.html",
-    "static/css/main.bf66cede.chunk.css.map": "/mental-health-resources/static/css/main.bf66cede.chunk.css.map",
-    "static/js/2.e601904b.chunk.js.LICENSE.txt": "/mental-health-resources/static/js/2.e601904b.chunk.js.LICENSE.txt"
+    "static/css/main.9f95702a.chunk.css.map": "/mental-health-resources/static/css/main.9f95702a.chunk.css.map",
+    "static/js/2.5b523a9c.chunk.js.LICENSE.txt": "/mental-health-resources/static/js/2.5b523a9c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9b873877.js",
-    "static/js/2.e601904b.chunk.js",
-    "static/css/main.bf66cede.chunk.css",
-    "static/js/main.29b22b95.chunk.js"
+    "static/js/runtime-main.a24c04ce.js",
+    "static/js/2.5b523a9c.chunk.js",
+    "static/css/main.9f95702a.chunk.css",
+    "static/js/main.7b966228.chunk.js"
   ]
 }
