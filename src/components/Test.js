@@ -5,7 +5,7 @@ export default class Test extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      score: 1,
+      score: null,
       scores: {}
     };
     this.onChangeValue = this.onChangeValue.bind(this);
