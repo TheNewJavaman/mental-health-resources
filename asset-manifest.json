@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mental-health-resources/static/css/main.e5464d15.chunk.css",
-    "main.js": "/mental-health-resources/static/js/main.c3e58f2e.chunk.js",
-    "main.js.map": "/mental-health-resources/static/js/main.c3e58f2e.chunk.js.map",
-    "runtime-main.js": "/mental-health-resources/static/js/runtime-main.c6eb8434.js",
-    "runtime-main.js.map": "/mental-health-resources/static/js/runtime-main.c6eb8434.js.map",
+    "main.css": "/mental-health-resources/static/css/main.37c000f4.chunk.css",
+    "main.js": "/mental-health-resources/static/js/main.971e552a.chunk.js",
+    "main.js.map": "/mental-health-resources/static/js/main.971e552a.chunk.js.map",
+    "runtime-main.js": "/mental-health-resources/static/js/runtime-main.267c79a6.js",
+    "runtime-main.js.map": "/mental-health-resources/static/js/runtime-main.267c79a6.js.map",
     "static/js/2.00131591.chunk.js": "/mental-health-resources/static/js/2.00131591.chunk.js",
     "static/js/2.00131591.chunk.js.map": "/mental-health-resources/static/js/2.00131591.chunk.js.map",
-    "static/js/3.78130067.chunk.js": "/mental-health-resources/static/js/3.78130067.chunk.js",
-    "static/js/3.78130067.chunk.js.map": "/mental-health-resources/static/js/3.78130067.chunk.js.map",
+    "static/js/3.0b5fbbbd.chunk.js": "/mental-health-resources/static/js/3.0b5fbbbd.chunk.js",
+    "static/js/3.0b5fbbbd.chunk.js.map": "/mental-health-resources/static/js/3.0b5fbbbd.chunk.js.map",
     "index.html": "/mental-health-resources/index.html",
-    "static/css/main.e5464d15.chunk.css.map": "/mental-health-resources/static/css/main.e5464d15.chunk.css.map",
+    "static/css/main.37c000f4.chunk.css.map": "/mental-health-resources/static/css/main.37c000f4.chunk.css.map",
     "static/js/2.00131591.chunk.js.LICENSE.txt": "/mental-health-resources/static/js/2.00131591.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c6eb8434.js",
+    "static/js/runtime-main.267c79a6.js",
     "static/js/2.00131591.chunk.js",
-    "static/css/main.e5464d15.chunk.css",
-    "static/js/main.c3e58f2e.chunk.js"
+    "static/css/main.37c000f4.chunk.css",
+    "static/js/main.971e552a.chunk.js"
   ]
 }
