@@ -1,0 +1,34 @@
+{
+    "main": {
+        "title": "Mental Health",
+        "text": [
+            "Each person's mental health is unique and can take one of many forms. These descriptions aren't all-encompassing, and if you have any worries about your own mental health, please consult a professional."
+        ]
+    },
+    "sub": [
+        {
+            "title": "Depression",
+            "text": [
+                "Depression specifically has several common characteristics: depressed mood, loss of interest or pleasure, changes in weight, physical slowness, fatigue, inability to concentrate, and recurring thoughts of death."
+            ]
+        },
+        {
+            "title": "Anxiety",
+            "text": [
+                "Anxiety can manifest in different ways, too: excessive worry, restlessness, fatigue, inability to concentrate, irritability, muscle pains, and difficulty sleeping."
+            ]
+        },
+        {
+            "title": "Inventories",
+            "text": [
+                "Below are two self-reported inventories of depression and anxiety; they can be a starting point, but they should never replace professional support"
+            ]
+        },
+        {
+            "title": "Hotlines",
+            "text": [
+                "At the bottom are contact links for immediate help. If you are suffering, please know that there will always be people to support you."
+            ]
+        }
+    ]
+}
